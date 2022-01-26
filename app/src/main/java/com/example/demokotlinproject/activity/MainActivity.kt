@@ -33,7 +33,8 @@ class MainActivity : AppCompatActivity() {
             //openFragmentActivity()
             //openRuntimeActivity()
             //openViewPagerActivity()
-            openAnimationActivity()
+            //openAnimationActivity()
+            openBackStackActivity()
         }
     }
 
@@ -84,6 +85,11 @@ class MainActivity : AppCompatActivity() {
     }
     fun openAnimationActivity() {
         val intent = Intent(this, AnimationActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun openBackStackActivity() {
+        val intent = Intent(this, BackStackActivity::class.java)
         startActivity(intent)
     }
 }

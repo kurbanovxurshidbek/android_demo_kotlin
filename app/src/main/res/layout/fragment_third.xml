@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00FF00"
+    android:background="#FFFF00"
     android:orientation="horizontal"
     android:padding="10dp"
     tools:context=".activity.FragmentActivity">
@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Second Fragment "
+            android:text="Third Fragment "
             android:textColor="@color/black"
             android:textSize="25sp" />
 
